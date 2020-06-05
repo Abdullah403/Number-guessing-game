@@ -30,7 +30,6 @@ def mini_game():
           'If you wish to restart there is option for you'.format(max_count-1))
     
     random_number = random.randint(0, 30)
-    print(random_number)
     
     while True:
         number = int(input('Enter your number: '))
