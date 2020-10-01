@@ -2,7 +2,8 @@
 Number guessing game written by Uchegbu Somtochukwu on June 2nd 2020
 
 """
-
+a = 'THIS IS A NUMBER GUESSING GAME'
+print(a.center(60))
 import random
 
 def random_guess_even(random_number,number):
